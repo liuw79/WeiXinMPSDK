@@ -134,6 +134,7 @@ namespace Senparc.Weixin.MP.Sample.CommonService
                         message = ex.Message;
                     }
 
+
                     if (sendTemplateMessage)
                     {
                         int sleepSeconds = 3;
